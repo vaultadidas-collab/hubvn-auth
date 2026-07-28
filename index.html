@@ -418,7 +418,7 @@
   .partner-hub-head p{color:var(--text-dim);font-size:14px;max-width:52ch;margin:0 auto;}
   .partner-grid{display:grid;gap:16px;grid-template-columns:1fr;}
   @media(min-width:640px){.partner-grid{grid-template-columns:repeat(2,1fr);}}
-  @media(min-width:1000px){.partner-grid{grid-template-columns:repeat(4,1fr);}}
+  @media(min-width:1000px){.partner-grid{grid-template-columns:repeat(3,1fr);}}
   .partner-card{
     display:flex;flex-direction:column;gap:10px;padding:22px 20px;
     border:1px solid var(--line);border-radius:var(--radius);
@@ -433,6 +433,8 @@
   .partner-card.pc-adidas::after{background:#8A8F98;}
   .partner-card.pc-wear::after{background:var(--gold);}
   .partner-card.pc-sony::after{background:#C73A2A;}
+  .partner-card.pc-hostinger::after{background:#673DE6;}
+  .partner-card.pc-goship::after{background:#E8542F;}
   .partner-card:hover{transform:translateY(-4px);border-color:var(--gold);box-shadow:0 14px 34px rgba(0,0,0,.35);}
   .partner-card:hover::after{opacity:.6;}
   .partner-card .pc-ico{font-size:30px;line-height:1;}
@@ -1390,6 +1392,18 @@
         <span class="pc-name">Sony Vault Hub</span>
         <span class="pc-desc" data-vi="Thế giới âm thanh &amp; công nghệ Sony — tai nghe, loa, phụ kiện chính hãng chọn lọc." data-en="The Sony audio &amp; tech world — curated authentic headphones, speakers &amp; accessories.">Thế giới âm thanh &amp; công nghệ Sony — tai nghe, loa, phụ kiện chính hãng chọn lọc.</span>
         <span class="pc-link">Sony Hub →</span>
+      </a>
+      <a class="partner-card pc-goship" href="https://vaultadidas-collab.github.io/goship123-hubphuquoc/" target="_blank" rel="noopener">
+        <span class="pc-ico">🛵</span>
+        <span class="pc-name">Goship123 Phú Quốc</span>
+        <span class="pc-desc" data-vi="Kênh ship của Kodeeboyzz tại Phú Quốc — đặt đồ ăn, xe ôm, mua hộ giao tận nơi trên đảo." data-en="Kodeeboyzz's delivery channel in Phú Quốc — food delivery, bike rides &amp; errands across the island.">Kênh ship của Kodeeboyzz tại Phú Quốc — đặt đồ ăn, xe ôm, mua hộ giao tận nơi trên đảo.</span>
+        <span class="pc-link">Goship123 →</span>
+      </a>
+      <a class="partner-card pc-hostinger" href="https://www.hostinger.com?REFERRALCODE=G8OQUOCCUJAK" target="_blank" rel="noopener sponsored">
+        <span class="pc-ico">🚀</span>
+        <span class="pc-name">Hostinger</span>
+        <span class="pc-desc" data-vi="Tạo website &amp; mua tên miền giá tốt nhất — hosting nhanh, AI website builder, SSL miễn phí." data-en="Build websites &amp; grab domains at the best price — fast hosting, AI website builder, free SSL.">Tạo website &amp; mua tên miền giá tốt nhất — hosting nhanh, AI website builder, SSL miễn phí.</span>
+        <span class="pc-link">Hostinger →</span>
       </a>
     </div>
   </section>
